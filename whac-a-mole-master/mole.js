@@ -62,7 +62,7 @@ function setMole() {
         currMoleTile.innerHTML = "";
     }
     let mole = document.createElement("img");
-    mole.src = "./monty-mole.png";
+    mole.src = "../La_Venganza _Del_Negro/img/leo-gato.jpg";
 
     let num = getRandomTile();
     if (currPlantTile && currPlantTile.id == num) {
@@ -80,7 +80,7 @@ function setPlant() {
         currPlantTile.innerHTML = "";
     }
     let plant = document.createElement("img");
-    plant.src = "./piranha-plant.png";
+    plant.src = "../La_Venganza _Del_Negro/img/vodka.jpeg";
 
     let num = getRandomTile();
     if (currMoleTile && currMoleTile.id == num) {
