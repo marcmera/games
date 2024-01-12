@@ -62,7 +62,7 @@ function setMole() {
         currMoleTile.innerHTML = "";
     }
     let mole = document.createElement("img");
-    mole.src = "../images/Sergi3.jpg";
+    mole.src = "../images/Sergi3.png";
 
     let num = getRandomTile();
     if (currPlantTile && currPlantTile.id == num) {
