@@ -1,47 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
     font-family: "Poppins", sans-serif;
     background-color: #8c52ff;
 }
+
 section {
     text-align: center;
-    border-radius: 10px;
-    width: 400px;
+    border-radius: 20px;
+    /* Aumentado el radio del borde */
+    width: 600px;
+    /* Aumentado el ancho */
     margin: auto;
     background-color: #fff;
-    margin-top: 75px;
-    box-shadow: 0px 10px 36px 16px rgba(0,0,0,0.1);
+    margin-top: 100px;
+    /* Aumentado el margen superior */
+    box-shadow: 0px 20px 72px 32px rgba(0, 0, 0, 0.1);
+    /* Aumentado el tamaño de la sombra */
 }
+
 .game--title {
-    padding-top: 20px;
+    padding-top: 40px;
+    /* Aumentado el relleno superior */
+    font-size: 30px;
+    /* Aumentado el tamaño de la fuente */
 }
+
 .game--container {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    width: 150px;
-    margin: 120px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    width: 300px;
+    /* Aumentado el ancho */
+    margin: 150px;
+    /* Aumentado el margen */
+    margin-bottom: 20px;
+    /* Aumentado el margen inferior */
+    margin-top: 20px;
+    /* Aumentado el margen superior */
 }
+
 .cell {
     font-family: "Poppins", sans-serif;
-    width: 50px;
-    height: 50px;
-    box-shadow: 0 0 0 1px #333333;
-    border: 1px solid #333333;
+
+    margin: 10px;
+
+    width: 70px;
+    /* Aumentado el ancho */
+    height: 70px;
+    /* Aumentado la altura */
+    box-shadow: 0 0 0 2px #333333;
+    /* Aumentado el tamaño de la sombra y el grosor del borde */
+    border: 2px solid #333333;
+    /* Aumentado el grosor del borde */
     cursor: pointer;
-    line-height: 50px;
-    font-size: 20px;
+    line-height: 70px;
+    /* Aumentado la altura de línea */
+    font-size: 25px;
+    /* Aumentado el tamaño de la fuente */
 }
+
+.x-img {
+    width: 70px;
+    /* Aumentado el ancho */
+    height: 70px;
+    /* Aumentado la altura */
+    background-image: url("https://i.ibb.co/0jZ3qYH/x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 button {
-    margin-bottom: 20px;
-    height: 30px;
+    margin-bottom: 40px;
+    /* Aumentado el margen inferior */
+    height: 40px;
+    /* Aumentado la altura */
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
+    /* Aumentado el radio del borde */
+    font-size: 16px;
+    /* Aumentado el tamaño de la fuente */
     color: #fff;
     background-color: #8c52ff;
     cursor: pointer;
 }
+
 button:hover {
     transition: 0.25s;
     background-color: #c1a2fe;

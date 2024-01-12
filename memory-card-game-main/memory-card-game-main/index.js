@@ -33,9 +33,10 @@ function generateCards() {
     cardElement.classList.add("card");
     cardElement.setAttribute("data-name", card.name);
     console.log(card.image);
+    image = '../../images/cherries.png';
     cardElement.innerHTML = `
       <div class="front">
-        <img class="front-image" src=./assets/${card.image} />
+        <img class="front-image" src=../../images/${card.image} />
       </div>
       <div class="back"></div>
     `;
