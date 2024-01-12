@@ -4,35 +4,35 @@
         "name": "arnau"
     },
     {
-        "image": "../../images/grapes.png",
-        "name": "grapes"
+        "image": "../../images/himel-edit.jpg",
+        "name": "himel-1"
     },
     {
-        "image": "../../images/lemon.png",
-        "name": "lemon"
+        "image": "../../images/himel-edit-2.jpg",
+        "name": "himel-2"
     },
     {
-        "image": "../../images/orange.png",
-        "name": "orange"
+        "image": "../../images/leo-gato.jpg",
+        "name": "leo-gato"
     },
     {
-        "image": "../../images/pineapple.png",
-        "name": "pineapple"
+        "image": "../../images/Sergi3.png",
+        "name": "sergi"
     },
     {
-        "image": "../../images/strawberry.png",
+        "image": "../../images/strawberry.jpg",
         "name": "strawberry"
     },
     {
-        "image": "../../images/tomato.png",
+        "image": "../../images/tomato.jpg",
         "name": "tomato"
     },
     {
-        "image": "../../images/watermelon.png",
+        "image": "../../images/watermelon.jpg",
         "name": "watermelon"
     },
     {
-        "image": "../../images/cherries.png",
+        "image": "../../images/cherries.jpg",
         "name": "cherries"
     }
 ]
