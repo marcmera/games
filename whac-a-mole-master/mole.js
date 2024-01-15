@@ -2,14 +2,13 @@ let currMoleTile;
 let currPlantTile;
 let score = 0;
 let gameOver = false;
-let time = 120; // tiempo en segundos
+let time = 120;
 
 window.onload = function () {
     setGame();
 };
 
 function setGame() {
-    //set up the grid in html
     for (let i = 0; i < 9; i++) {
         let tile = document.createElement("div");
         tile.id = i.toString();
@@ -17,13 +16,10 @@ function setGame() {
         document.getElementById("board").appendChild(tile);
     }
 
-    // Mostrar tiempo inicial
     document.getElementById("timer").innerText = "Time: " + time.toString() + "s";
 
-    // Iniciar temporizador
     setInterval(updateTimer, 1000);
 
-    // Llamar a setMole y setPlant cada segundo y dos segundos, respectivamente
     setInterval(setMole, 1000);
     setInterval(setPlant, 2000);
 }
@@ -35,7 +31,6 @@ function updateTimer() {
 
     time--;
 
-    // Mostrar tiempo actualizado
     document.getElementById("timer").innerText = "Time: " + time.toString() + "s";
 
     if (time <= 0) {
@@ -47,7 +42,6 @@ function endGame() {
     gameOver = true;
     document.getElementById("timer").innerText = "GAME OVER";
 
-    // Limpiar intervalos para detener la generación de nuevos moles y plantas
     clearInterval(moleInterval);
     clearInterval(plantInterval);
 }
