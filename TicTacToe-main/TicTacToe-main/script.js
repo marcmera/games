@@ -1,7 +1,7 @@
 const statusDisplay = document.querySelector('.game--status');
 
 let xImage = "../../images/himel-edit.jpg";
-let oImage = "../../images/Sergi3.jpg";
+let oImage = "../../images/Sergi3.png";
 
 let gameActive = true;
 
