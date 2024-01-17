@@ -15,5 +15,5 @@ document.getElementById("j3").addEventListener("click", function() {
 });
 
 document.getElementById("j4").addEventListener("click", function() {
-    iniciarJuego("whack-a-mole-main");
+    iniciarJuego("whac-a-mole-main");
 });
