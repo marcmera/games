@@ -1,11 +1,11 @@
 const statusDisplay = document.querySelector('.game--status');
 
-let xImage = "../../images/himel-edit.jpg";
-let oImage = "../../images/Sergi3.png";
+let xImage = "../../images/himel2.png";
+let oImage = "../../images/sergi3.png";
 
 let gameActive = true;
 
-let currentPlayer = 'X'; // Cambiado a 'x' en lugar de la ruta de la imagen
+let currentPlayer = 'Himel'; // Cambiado a 'x' en lugar de la ruta de la imagen
 
 let gameState = ["", "", "", "", "", "", "", "", ""];
 
@@ -33,7 +33,7 @@ function handleCellClick(clickedCellEvent) {
 function handleCellPlayed(clickedCell, clickedCellIndex) {
     gameState[clickedCellIndex] = currentPlayer;
     // Cambiado para mostrar la imagen en lugar del contenido del jugador
-    clickedCell.innerHTML = `<img class="x-img" src="${currentPlayer === 'X' ? xImage : oImage}" alt="${currentPlayer}">`;
+    clickedCell.innerHTML = `<img class="x-img" src="${currentPlayer === 'Himel' ? xImage : oImage}" alt="${currentPlayer}">`;
 }
 
 const winningConditions = [
@@ -79,13 +79,13 @@ function handleResultValidation() {
 }
 
 function handlePlayerChange() {
-    currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
+    currentPlayer = currentPlayer === 'Himel' ? 'Sergi' : 'Himel';
     statusDisplay.innerHTML = currentPlayerTurn();
 }
 
 function handleRestartGame() {
     gameActive = true;
-    currentPlayer = 'X';
+    currentPlayer = 'Himel';
     gameState = ["", "", "", "", "", "", "", "", ""];
     statusDisplay.innerHTML = currentPlayerTurn();
     document.querySelectorAll('.cell')

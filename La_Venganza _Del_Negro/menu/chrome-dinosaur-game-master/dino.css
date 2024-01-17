@@ -4,6 +4,6 @@ body {
 }
 
 #board {
-    /* background-color: skyblue; */
-    background-image: url("./flappybirdbg.webp");
+    background-color: lightgray;
+    border-bottom: 1px solid black;
 }

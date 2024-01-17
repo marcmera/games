@@ -12,7 +12,7 @@
         "name": "himel-2"
     },
     {
-        "image": "../../images/leo-gato.jpg",
+        "image": "../../images/leo-gato.png",
         "name": "leo-gato"
     },
     {
@@ -24,15 +24,15 @@
         "name": "xavi"
     },
     {
-        "image": "../../images/vodka.png",
-        "name": "vodka"
+        "image": "../../images/marc.png",
+        "name": "marc"
     },
     {
-        "image": "../../images/watermelon.jpg",
-        "name": "watermelon"
+        "image": "../../images/arnau.png",
+        "name": "arnau2"
     },
     {
-        "image": "../../images/cherries.jpg",
-        "name": "cherries"
+        "image": "../../images/himel4.png",
+        "name": "himel-3"
     }
 ]
