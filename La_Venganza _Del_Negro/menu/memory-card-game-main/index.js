@@ -6,7 +6,7 @@ let score = 0;
 
 document.querySelector(".score").textContent = score;
 
-fetch("/memory-card-game-main/memory-card-game-main/data/cards.json")
+fetch("./data/cards.json")
   .then((res) => res.json())
   .then((data) => {
     cards = [...data, ...data];
@@ -36,7 +36,7 @@ function generateCards() {
     image = '../../images/sergi3.png';
     cardElement.innerHTML = `
       <div class="front">
-        <img class="front-image" src=../../images/${card.image} />
+        <img class="front-image" src="${card.image}"/>
       </div>
       <div class="back"></div>
     `;
