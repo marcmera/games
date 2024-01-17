@@ -1,38 +1,38 @@
 [
     {
-        "image": "../../../images/arnau.jpg",
+        "image": "../../images/arnau.jpg",
         "name": "arnau"
     },
     {
-        "image": "../../../images/himel2.png",
+        "image": "../../images/himel2.png",
         "name": "himel-1"
     },
     {
-        "image": "../../../images/himel3.png",
+        "image": "../../images/himel3.png",
         "name": "himel-2"
     },
     {
-        "image": "../../../images/leo-gato.png",
+        "image": "../../images/leo-gato.jpg",
         "name": "leo-gato"
     },
     {
-        "image": "../../../images/sergi3.png",
+        "image": "../../images/sergi3.png",
         "name": "sergi"
     },
     {
-        "image": "../../../images/xavi.png",
+        "image": "../../images/xavi.png",
         "name": "xavi"
     },
     {
-        "image": "../../../images/marc.png",
-        "name": "tomato"
+        "image": "../../images/vodka.png",
+        "name": "vodka"
     },
     {
-        "image": "../../../images/sergi4.jph",
-        "name": "sergi4"
+        "image": "../../images/watermelon.jpg",
+        "name": "watermelon"
     },
     {
-        "image": "../../../images/sergi3.png",
-        "name": "sergi3"
+        "image": "../../images/cherries.jpg",
+        "name": "cherries"
     }
 ]
