@@ -2,7 +2,7 @@ let currMoleTile;
 let currPlantTile;
 let score = 0;
 let gameOver = false;
-let time = 120;
+let time = 60;
 
 window.onload = function () {
     setGame();
