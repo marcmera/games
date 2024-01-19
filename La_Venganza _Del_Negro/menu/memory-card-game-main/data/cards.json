@@ -4,12 +4,12 @@
         "name": "arnau"
     },
     {
-        "image": "../../images/himel2.png",
-        "name": "himel-1"
+        "image": "../../images/marc2.png",
+        "name": "marc-2"
     },
     {
-        "image": "../../images/himel3.png",
-        "name": "himel-2"
+        "image": "../../images/marc3.jpg",
+        "name": "marc-3"
     },
     {
         "image": "../../images/leo-gato.png",
@@ -32,7 +32,7 @@
         "name": "arnau2"
     },
     {
-        "image": "../../images/himel4.png",
-        "name": "himel-3"
+        "image": "../../images/leo2.png",
+        "name": "leo-2"
     }
 ]

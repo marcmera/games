@@ -55,10 +55,10 @@ window.onload = function() {
     }
 
     topPipeImg = new Image();
-    topPipeImg.src = "../../images/dildo-down.png";
+    topPipeImg.src = "../../images/porraD2.png";
 
     bottomPipeImg = new Image();
-    bottomPipeImg.src = "../../images/dildo-up.png";
+    bottomPipeImg.src = "../../images/porraU2.png";
 
     requestAnimationFrame(update);
     setInterval(placePipes, 1500); //every 1.5 seconds
