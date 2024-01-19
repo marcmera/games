@@ -1,10 +1,15 @@
 body {
     font-family:'Courier New', Courier, monospace;
     text-align: center;
-    background: url("./police.webp");
 }
 
 #board {
     /* background-color: skyblue; */
     background-image: url("./flappybirdbg.webp");
+}
+html {
+    background: url("./police.webp");
+    background-size:auto 170%;
+    background-repeat: no-repeat;
+
 }
